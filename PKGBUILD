@@ -1,4 +1,5 @@
-# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Brian Thompson <brianrobt@pm.me>
+# Contributor: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Alexander Rødseth <rodseth@gmail.com>
 # Contributor: Ray Rashif <schiv@archlinux.org>
 # Contributor: Douglas Soares de Andrade <douglas@archlinux.org>
@@ -12,8 +13,8 @@ pkgrel=1
 pkgdesc='Create standalone executables from Python scripts'
 arch=('x86_64')
 url='https://marcelotduarte.github.io/cx_Freeze'
-license=('PSF')
-depends=('glibc' 'patchelf' 'python' 'python-packaging' 'python-setuptools')
+license=('PSF-2.0')
+depends=('glibc' 'patchelf' 'python' 'python-packaging' 'python-setuptools' 'python-filelock' 'python-pyqt5')
 makedepends=('python-wheel' 'python-build' 'python-installer')
 checkdepends=('python-pytest-mock' 'python-bcrypt' 'python-cryptography' 'python-openpyxl'
               'python-pandas' 'python-pillow' 'python-pydantic' 'python-pytz' 'rpm-tools' 'python-pytest-xdist' 'python-pytest-datafiles')
